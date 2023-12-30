@@ -1,6 +1,6 @@
 <p align="center">
   <a href="">
-    <img src="https://storage.googleapis.com/kaggle-datasets-images/1120859/1882037/04da2fb7763e553bdf251d5adf6f88d9/dataset-cover.jpg?t=2021-01-26-19-57-05" alt="Logo" width=72 height=72>
+    <img src="https://www.newcastle.edu.au/__data/assets/image/0011/838982/varieties/gallery_slide.jpg" alt="Logo" width=72 height=72>
   </a>
 
   <h3 align="center">Context</h3>

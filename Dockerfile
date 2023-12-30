@@ -10,12 +10,10 @@ COPY requirements.txt .
 # Install the Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the tokenizer and model files into the container
-COPY tokenizer.pkl .
-COPY model.h5 .
-
 # Copy the Python script into the container
-COPY main.py .
+COPY . .
+
+EXPOSE 8080
 
 # Run the Python script when the container launches
-ENTRYPOINT ["python", "main.py"]
+CMD ["uvicorn",:"main:app","--host","0.0.0.0","--port","8080"]
